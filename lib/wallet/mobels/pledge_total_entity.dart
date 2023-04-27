@@ -1,0 +1,44 @@
+import 'package:mars/generated/json/base/json_convert_content.dart';
+import 'package:mars/generated/json/base/json_field.dart';
+
+class PledgeTotalEntity with JsonConvert<PledgeTotalEntity> {
+	@JSONField(name: "pledge_id")
+	String pledgeId;
+	String title;
+	@JSONField(name: "title_en")
+	String titleEn;
+	@JSONField(name: "title_th")
+	String titleTh;
+	@JSONField(name: "title_ms")
+	String titleMs;
+	String intro;
+	@JSONField(name: "intro_en")
+	String introEn;
+	@JSONField(name: "intro_th")
+	String introTh;
+	@JSONField(name: "intro_ms")
+	String introMs;
+	String type;
+	String day;
+	String rate;
+	@JSONField(name: "pay_currency")
+	String payCurrency;
+	@JSONField(name: "pay_totaled")
+	String payTotaled;
+	@JSONField(name: "pay_min")
+	String payMin;
+	@JSONField(name: "pay_max")
+	String payMax;
+	@JSONField(name: "to_currency")
+	String toCurrency;
+	@JSONField(name: "to_totaled")
+	String toTotaled;
+	@JSONField(name: "to_team_totaled")
+	String toTeamTotaled;
+	@JSONField(name: "create_time")
+	String createTime;
+	@JSONField(name: "is_on_sale")
+	String isOnSale;
+	@JSONField(name: "expire_fee")
+	String expireFee;
+}

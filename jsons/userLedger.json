@@ -1,0 +1,21 @@
+{
+  "id": "19",
+  "account": "rUBSPSc9TU76E5qXV16HKgDeYrC2Fzio4W",
+  "transaction_type": "Payment",
+  "ledger_index": "343831",
+  "hash": "3AE718D41E5CC98234DE99B1EFE30C185846FBD41DB91D14D3EB0C8216E7A85E",
+  "fee": "12",
+  "status": "success",
+  "validated": "1",
+  "ripple_date": "656993451",
+  "tx_time": "1603694789",
+  "destination": "rETDFBNbK11CLLdb7MbYjWHhZnZDYfdu93",
+  "currency": "DEC",
+  "amount": "10",
+  "balance": "200.77",
+  "destination_balance": "1111.23",
+  "description": "成功转出 10 个DEC",
+  "icon": "",
+  "is_detail": "",
+  "state_str": ""
+}

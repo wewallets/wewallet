@@ -1,0 +1,56 @@
+import 'package:mars/generated/json/base/json_convert_content.dart';
+import 'package:mars/generated/json/base/json_field.dart';
+
+class PledgeListEntity with JsonConvert<PledgeListEntity> {
+	@JSONField(name: "pledge_id")
+	String pledgeId;
+	@JSONField(name: "product_id")
+	String productId;
+	String title;
+	@JSONField(name: "title_en")
+	String titleEn;
+	@JSONField(name: "title_th")
+	String titleTh;
+	@JSONField(name: "title_ms")
+	String titleMs;
+	String intro;
+	@JSONField(name: "intro_en")
+	String introEn;
+	@JSONField(name: "intro_th")
+	String introTh;
+	@JSONField(name: "intro_ms")
+	String introMs;
+	String icon;
+	String day;
+	String rate;
+	@JSONField(name: "start_time")
+	String startTime;
+	@JSONField(name: "end_time")
+	String endTime;
+	@JSONField(name: "pay_currency")
+	String payCurrency;
+	@JSONField(name: "pay_totaled")
+	String payTotaled;
+	@JSONField(name: "pay_min")
+	String payMin;
+	@JSONField(name: "pay_max")
+	String payMax;
+	@JSONField(name: "to_currency")
+	String toCurrency;
+	@JSONField(name: "to_totaled")
+	String toTotaled;
+	@JSONField(name: "create_time")
+	String createTime;
+	@JSONField(name: "is_on_sale")
+	String isOnSale;
+	@JSONField(name: "rules_unlock")
+	String rulesUnlock;
+	@JSONField(name: "rules_trading")
+	String rulesTrading;
+	@JSONField(name: "rules_interest")
+	String rulesInterest;
+	@JSONField(name: "rules_dividend")
+	String rulesDividend;
+	@JSONField(name: "payment_date")
+	String paymentDate;
+}

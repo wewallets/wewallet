@@ -1,0 +1,13 @@
+{
+  "config_id": "1",
+  "forced_update": "0",
+  "version_no": "1",
+  "tiltle": "内容标题",
+  "content": "更新内容",
+  "ios_addr": "iOS下载地址",
+  "web_addr": "iOS下载地址",
+  "android_addr": "Android下载地址",
+  "ios_version_no": "Android下载地址",
+  "ios_version": "Android下载地址",
+  "version": "1.0.1"
+}

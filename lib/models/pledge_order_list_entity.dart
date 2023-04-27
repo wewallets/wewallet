@@ -1,0 +1,43 @@
+import 'package:mars/generated/json/base/json_convert_content.dart';
+import 'package:mars/generated/json/base/json_field.dart';
+
+class PledgeOrderListEntity with JsonConvert<PledgeOrderListEntity> {
+	@JSONField(name: "order_id")
+	String orderId;
+	@JSONField(name: "pledge_id")
+	String pledgeId;
+	@JSONField(name: "expire_time")
+	String expireTime;
+	String uid;
+	String account;
+	@JSONField(name: "pay_amount")
+	String payAmount;
+	@JSONField(name: "pay_tid")
+	String payTid;
+	@JSONField(name: "to_amount")
+	String toAmount;
+	@JSONField(name: "ex_price")
+	String exPrice;
+	String tid;
+	String status;
+	@JSONField(name: "create_time")
+	String createTime;
+	@JSONField(name: "update_time")
+	String updateTime;
+	String remark;
+	String title;
+	@JSONField(name: "title_en")
+	String titleEn;
+	@JSONField(name: "title_th")
+	String titleTh;
+	@JSONField(name: "title_ms")
+	String titleMs;
+	String day;
+	@JSONField(name: "to_currency")
+	String toCurrency;
+	String rate;
+	@JSONField(name: "pay_currency")
+	String payCurrency;
+	@JSONField(name: "status_str")
+	String statusStr;
+}

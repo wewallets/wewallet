@@ -1,0 +1,20 @@
+{
+  "trad_currency_name": "DEC",
+  "base_currency_name": "UST",
+  "symbol": "DECUST",
+  "amount": "15.000000",
+  "count": "1",
+  "open": "0.333333",
+  "low": "0.000000",
+  "high": "7.500000",
+  "vol": "5.000000",
+  "bid": "5.000000",
+  "bidSize": "7822.05",
+  "ask": "5.000000",
+  "askSize": "32",
+  "close": "5.000000",
+  "rice_fall": "",
+  "is_new": "",
+  "cny_value": "",
+  "unit_price": ""
+}

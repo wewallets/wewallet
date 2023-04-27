@@ -1,0 +1,41 @@
+import 'package:mars/generated/json/base/json_convert_content.dart';
+import 'package:mars/generated/json/base/json_field.dart';
+
+class SwapOrderListEntity with JsonConvert<SwapOrderListEntity> {
+	@JSONField(name: "order_id")
+	String orderId;
+	String uid;
+	String account;
+	@JSONField(name: "product_id")
+	String productId;
+	@JSONField(name: "product_symbol")
+	String productSymbol;
+	@JSONField(name: "product_curr_price")
+	String productCurrPrice;
+	@JSONField(name: "pay_currency")
+	String payCurrency;
+	@JSONField(name: "pay_amount")
+	String payAmount;
+	@JSONField(name: "ex_currency")
+	String exCurrency;
+	@JSONField(name: "ex_amount")
+	String exAmount;
+	@JSONField(name: "ex_real_price")
+	String exRealPrice;
+	@JSONField(name: "ex_real_amount")
+	String exRealAmount;
+	@JSONField(name: "ex_rate")
+	String exRate;
+	@JSONField(name: "auto_cancel_minute")
+	String autoCancelMinute;
+	@JSONField(name: "pay_tid")
+	String payTid;
+	dynamic tid;
+	String status;
+	@JSONField(name: "create_time")
+	String createTime;
+	@JSONField(name: "update_time")
+	String updateTime;
+	@JSONField(name: "log_str")
+	String logStr;
+}
